@@ -21,6 +21,8 @@ opencv-python
 Pillow
 prophet
 pmdarima
+pytorch
+torchaudio
 
 
 
