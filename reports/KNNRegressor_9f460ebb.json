@@ -1,0 +1,52 @@
+{
+  "task": "regression",
+  "best_model_name": "KNNRegressor",
+  "cv_scores": [
+    {
+      "model": "LinearRegression",
+      "cv_score": -0.32926740743144445
+    },
+    {
+      "model": "Ridge",
+      "cv_score": 0.23560977499137734
+    },
+    {
+      "model": "Lasso",
+      "cv_score": -0.4022923214117592
+    },
+    {
+      "model": "RandomForestRegressor",
+      "cv_score": 0.4099188239071621
+    },
+    {
+      "model": "SVR",
+      "cv_score": -0.08119304618295424
+    },
+    {
+      "model": "KNNRegressor",
+      "cv_score": 0.45300381711539817
+    }
+  ],
+  "test_metrics": {
+    "r2": 0.4242067973734852,
+    "mae": 13740.484210526316,
+    "rmse": 47903.606046967165
+  },
+  "features": {
+    "numeric": [
+      "BHK",
+      "Size",
+      "Bathroom"
+    ],
+    "categorical": [
+      "Posted On",
+      "Floor",
+      "Area Type",
+      "Area Locality",
+      "City",
+      "Furnishing Status",
+      "Tenant Preferred",
+      "Point of Contact"
+    ]
+  }
+}
