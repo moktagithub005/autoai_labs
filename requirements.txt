@@ -1,3 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+torchaudio==2.5.1+cpu
 streamlit
 pandas
 numpy
@@ -12,9 +16,6 @@ python-dotenv
 openai>=1.0.0
 shap
 nbformat
-torch==2.5.1
-torchvision==0.20.1
-torchaudio==2.5.1
 Pillow
 tqdm
 ultralytics==8.2.50
