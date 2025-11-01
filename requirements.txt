@@ -17,21 +17,7 @@ tqdm
 opencv-python-headless
 pmdarima
 prophet
-torch==2.5.1
-torchvision==0.20.1
-torchaudio==2.5.1
---extra-index-url https://download.pytorch.org/whl/cpu
-ultralytics==8.2.50
-```
-
-**Key changes:**
-1. Removed `+cpu` suffixes from torch packages
-2. Moved `--extra-index-url` to the end
-3. Changed `opencv-python` to `opencv-python-headless` (better for cloud deployments)
-
-## **Solution 2: Use packages.txt for system dependencies**
-
-If ultralytics needs additional system libraries, create a `packages.txt` file in your project root:
-```
-libgl1-mesa-glx
-libglib2.0-0
+torch
+torchvision
+torchaudio
+ultralytics
