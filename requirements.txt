@@ -14,10 +14,5 @@ shap
 nbformat
 Pillow
 tqdm
-opencv-python-headless
 pmdarima
 prophet
-torch
-torchvision
-torchaudio
-ultralytics
