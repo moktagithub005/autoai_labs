@@ -10,6 +10,10 @@ import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()  # loads OPENAI_API_KEY from .env
 
+
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from cv_trainer import (
     CVTrainConfig,
     best_device,
@@ -22,6 +26,7 @@ from cv_trainer import (
     load_model_for_infer,
     predict_image
 )
+
 from PIL import Image
 import io
 
