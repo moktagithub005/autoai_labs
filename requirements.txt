@@ -14,5 +14,3 @@ shap
 nbformat
 Pillow
 tqdm
-pmdarima
-prophet

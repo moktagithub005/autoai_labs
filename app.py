@@ -29,6 +29,8 @@ from cv_trainer import (
 
 from PIL import Image
 import io
+Image.MAX_IMAGE_PIXELS = None  # Disable decompression bomb check
+
 
 from cv_data_prep import (
     infer_labels_auto,
